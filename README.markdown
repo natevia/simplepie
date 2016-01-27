@@ -1,5 +1,7 @@
-SimplePie fork
+SimplePie
 =========
+
+Fork of Simplepie
 
 Add pull resquest to correct SSL certificate problem
 https://github.com/simplepie/simplepie/pull/407
@@ -14,4 +16,20 @@ Usage :
                     CURLOPT_SSL_VERIFYPEER => false
                 )
             );
+```
+
+
+Install with composer (composer.json)
+```json
+{
+    "require":{
+        "simplepie/simplepie": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/natevia/simplepie.git"
+        }		
+    ]
+}
 ```
